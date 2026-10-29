@@ -1,0 +1,32 @@
+[
+  {
+    "id": "U-001",
+    "name": "Ana Souza",
+    "role": "Analista de Dados",
+    "team": "Dados & Analytics",
+    "contract": "CLT",
+    "workModel": "híbrido",
+    "startDate": "2026-10-19",
+    "city": "São Paulo"
+  },
+  {
+    "id": "U-002",
+    "name": "Bruno Lima",
+    "role": "Estagiário de Desenvolvimento",
+    "team": "Plataforma",
+    "contract": "estágio",
+    "workModel": "híbrido",
+    "startDate": "2026-08-03",
+    "city": "Curitiba"
+  },
+  {
+    "id": "U-003",
+    "name": "Carla Mendes",
+    "role": "Gerente de Contas",
+    "team": "Comercial",
+    "contract": "CLT",
+    "workModel": "100% remoto",
+    "startDate": "2023-05-02",
+    "city": "Recife"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "ai-context-platform-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projeto prático do Módulo 3: plataforma de contexto AI-first — assistente interno da Lumora com contexto modular, memória de sessão e de longo prazo (SQLite), camada de regras, RAG híbrido com threshold e testes de comportamento.",
+  "type": "module",
+  "scripts": {
+    "ingest": "node --disable-warning=ExperimentalWarning src/cli.ts ingest",
+    "chat": "node --disable-warning=ExperimentalWarning src/cli.ts chat",
+    "ask": "node --disable-warning=ExperimentalWarning src/cli.ts ask",
+    "kb": "node --disable-warning=ExperimentalWarning src/cli.ts kb",
+    "eval": "node --disable-warning=ExperimentalWarning src/cli.ts eval",
+    "demo": "node --disable-warning=ExperimentalWarning src/cli.ts demo",
+    "test": "node --disable-warning=ExperimentalWarning --test \"src/tests/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  }
+}
